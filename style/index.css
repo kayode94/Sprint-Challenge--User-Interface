@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -49,6 +49,9 @@ table {
 
 * {
     box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
 }
 
 html, body {
@@ -100,11 +103,32 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%; 
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 30px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,7 +136,82 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.bottom-content .text-container{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
@@ -144,3 +243,208 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:20%;
+    padding: 20px 2%;
+    font-size: 1.4rem;
+    text-decoration:none;
+  }
+  header nav h1{
+      margin-right:150px;
+
+  }
+  img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+    margin-top:5%;
+    height:250px;
+    width:50%;
+  }
+  h1{
+    font-size:2rem;
+    padding-right:10%;
+  }
+  .Header{
+      display:flex;
+      margin-right:30%;
+      width:80%;
+  }
+  a{
+      text-decoration: none;
+      color:black;
+  }
+  .About :hover{
+      color:blue;
+  }
+
+  /* Media Queires */
+
+  @media (max-width:800px){
+    .middle-content .boxes{
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .middle-content .boxes .box1 {
+        width: 25%;
+        height: 100px;
+        background: teal;
+        margin-left: auto;
+        margin-right: auto; 
+        color: white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box2 {
+        width: 25%;
+        height: 100px;
+        background: gold;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box3 {
+        width: 25%;        
+        height: 100px;
+        background: cadetblue;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box4 {
+        width: 25%;
+        height: 100px;
+        background: coral;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box5 {
+        width: 25%;
+        height: 100px;
+        background: crimson;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box6 {
+        width: 25%;
+        height: 100px;
+        background: forestgreen;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box7 {
+        width: 25%;
+        height: 100px;
+        background: darkorchid;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box8 {
+        width: 25%;
+        height: 100px;
+        background: hotpink;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box9 {
+        width: 25%;
+        height: 100px;
+        background: indigo;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle-content .boxes .box10 {
+        width: 25%;
+        height: 100px;
+        background: dodgerblue;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer nav{
+        display:flex;
+        flex-direction:column;
+        font-size:1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom-content .text-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .bottom-content .text-container h2{
+        margin-left:2% ;
+        margin-right:2% ; 
+    }
+    .top-content .text-container{
+        display:flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    header nav{
+        display:flex;
+        flex-direction: column;
+        margin-right: 200px;
+    }
+    header nav h1{
+       display:flex;
+       margin-left: 200px;
+    }
+    .middle-content h2{
+        display:flex;
+        justify-content: center;
+    }
+  }
